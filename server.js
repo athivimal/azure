@@ -4,10 +4,10 @@ const WebSocket = require('ws');
 const path = require('path');
 const EventHubReader = require('./scripts/event-hub-reader.js');
 
-const iotHubConnectionString = "HostName=KRISHTEC.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=ENn+200RvfsegUrLUxbSct6OzhewJeUNr70pb281hRo=";
-       //"HostName=KTBAGRI.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=AaYvkN3lA+HBgoiWn5byRFG6KlIE3izDdoe2pljI8d8=";
+const iotHubConnectionString ="HostName=KTCBE.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=inqFG64oae9kqMA+rrqZYfeIWjxa2SuEOGkh+EMiQII=";
+                            //"HostName=KTBAGRI.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=AaYvkN3lA+HBgoiWn5byRFG6KlIE3izDdoe2pljI8d8=";
 
-const eventHubConsumerGroup = "kt2020";
+const eventHubConsumerGroup = "ktkct";
 
 
 // Redirect requests to the public subdirectory to the root

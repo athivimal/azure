@@ -4,9 +4,10 @@ const WebSocket = require('ws');
 const path = require('path');
 const EventHubReader = require('./scripts/event-hub-reader.js');
 
-const iotHubConnectionString ="HostName=KTECCBE.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=OSsvT1gxUC1ITXh1R0qLfvexXvWan2PpfLcMkLTaPb8=";
-//      "HostName=KTCBE.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=inqFG64oae9kqMA+rrqZYfeIWjxa2SuEOGkh+EMiQII=";
-                            
+const iotHubConnectionString ="HostName=KTECCBE.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=nemfIqRS2fXeO672h/9pK+JW+QYvmnQ9oVhjDKV/8Zc=";
+
+//SharedAccessKeyName=service;SharedAccessKey=OSsvT1gxUC1ITXh1R0qLfvexXvWan2PpfLcMkLTaPb8=";
+     
 //"HostName=KTBAGRI.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=AaYvkN3lA+HBgoiWn5byRFG6KlIE3izDdoe2pljI8d8=";
 
 const eventHubConsumerGroup = "sunlife";

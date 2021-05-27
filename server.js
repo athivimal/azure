@@ -9,7 +9,7 @@ const iotHubConnectionString ="HostName=KTECCBE.azure-devices.net;SharedAccessKe
                             
 //"HostName=KTBAGRI.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=AaYvkN3lA+HBgoiWn5byRFG6KlIE3izDdoe2pljI8d8=";
 
-const eventHubConsumerGroup = "kteccbe";
+const eventHubConsumerGroup = "sunlife";
 
 
 // Redirect requests to the public subdirectory to the root

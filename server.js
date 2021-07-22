@@ -4,7 +4,9 @@ const WebSocket = require('ws');
 const path = require('path');
 const EventHubReader = require('./scripts/event-hub-reader.js');
 
-const iotHubConnectionString ="HostName=KTECCBE.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=nemfIqRS2fXeO672h/9pK+JW+QYvmnQ9oVhjDKV/8Zc=";
+const iotHubConnectionString ="HostName=KTCBE.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=TLdbqn4x+Tg2AxVW+oWI6oePhedTWpvVKb+VVjnVmcc=";
+
+//Endpoint=sb://iothub-ns-ktcbe-13694012-039713f585.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=TLdbqn4x+Tg2AxVW+oWI6oePhedTWpvVKb+VVjnVmcc=;EntityPath=ktcbe
 
 //SharedAccessKeyName=service;SharedAccessKey=OSsvT1gxUC1ITXh1R0qLfvexXvWan2PpfLcMkLTaPb8=";
      

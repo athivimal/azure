@@ -79,7 +79,7 @@ $(document).ready(() => {
   const chartOptions = {
     title: {
       display: true,
-      text: 'Temperature & Humidity Real-time Data1',
+      text: 'KRISHTEC-Temperature & Humidity Real-time Data1',
       fontSize: 36,
     },
     scales: {

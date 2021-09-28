@@ -5,9 +5,7 @@ const path = require('path');
 const EventHubReader = require('./scripts/event-hub-reader.js');
 
 const iotHubConnectionString ="HostName=KTSREC.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=T8nQozOOC2ncQ2XsyDQQIFL/sOG7agzGF+G/4DP3P88="
-//;EntityPath=ktsrec    
-//"HostName=KTAI.azure-devices.net;  SharedAccessKeyName=service;SharedAccessKey=w6ppCx3Vln2391oisgRSKXkTlcOA2JKOTNGsqSOSlss=";
-//HostName=KTSREC.azure-devices.net;DeviceId=KT_IOS;SharedAccessKey=Y96TUJf8tG5vh3TpcciRFF+iV8nF9O9T0kJrYhXZ/A4=
+//"HostName=KTAI.azure-devices.net  ;SharedAccessKeyName=service;SharedAccessKey=w6ppCx3Vln2391oisgRSKXkTlcOA2JKOTNGsqSOSlss=";
      
 //"HostName=KTBAGRI.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=AaYvkN3lA+HBgoiWn5byRFG6KlIE3izDdoe2pljI8d8=";
 

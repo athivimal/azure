@@ -79,7 +79,7 @@ $(document).ready(() => {
   const chartOptions = {
     title: {
       display: true,
-      text: 'KRISHTEC-Temperature & Humidity Real-time Data1',
+      text: 'KRISHTEC-TUV-FC-DOVER/DESTACO-Temperature & Humidity  Data from IoT',
       fontSize: 36,
     },
     scales: {

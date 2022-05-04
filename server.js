@@ -4,7 +4,7 @@ const WebSocket = require('ws');
 const path = require('path');
 const EventHubReader = require('./scripts/event-hub-reader.js');
 
-const iotHubConnectionString ="
+const iotHubConnectionString ="HostName=ACLCHENNAI.azure-devices.net;;SharedAccessKeyName=service;SharedAccessKey=F/0GZB966G+VPa1HtjBucGDozfgH6FtqjPYo4WTzVGU="
 
 //HostName=KTAI.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=L2IDJe5yizp79RqkRH3ZkIQZZnD9V7Qgkzx7fevMyV8="
 
